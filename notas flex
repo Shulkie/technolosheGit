@@ -1,0 +1,58 @@
+
+
+padre
+
+display: flex
+flex-direction eje horizontal 
+justify-content eje h 
+align-items eje vertical
+align-content 
+flex-wrap envuelve todos los hijos para que baje si se pasa del contenedor 
+flex-flow (shotcurt de direction y wraP )
+
+box shadow: el primero  la distancia del eje x que se va a mover la sobmbra , es decir
+desde donde va a aparecer esa sobmbra 
+
+el segundo es la distancia del eje Y
+
+el tercero es la cantidad de blur que quiero tener en esa sombra 
+
+el cuarto valor es el spread, o sea cuanto quiero  que proyecte de sombra
+
+y al final opcional el color
+
+otro valor final opcional es el tipo de sombra que me da la convexidad o concavidad de la caja
+
+material design tiene un manual para hacer sombras 
+
+pseudo  clase se aplica a un selector para denotar un comportamiento que tenga ese elemento o 
+espacio reducido de ese elemento 
+
+
+por ejemplo aplicar regla a la primer palabra o a la primer frase
+
+se clasifican en dos
+
+
+pseudo-elementos espacios reducidos
+ y
+  pseudo-selectores  comportamientos 
+
+
+  sintaxis: selector: pseudoclase {}
+
+:first-child
+:last-child
+  pseudo elemento :nth-child(N) de todos los elementos que coinciden con el selector el que está en la posicion N
+
+
+por ejemplo #contenedor div (nombro al div)
+
+elemento: hover = cuando el cursor está encima del elemento 
+
+
+@media <dispositivo> [condiciones]
+
+all print screen speech ( los diferentes dispositivos )
+
+condiciones = media fetures pe min-width, max-width 

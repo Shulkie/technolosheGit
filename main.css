@@ -1,0 +1,41 @@
+#contenedor{
+
+display: flex;
+height: 100px;
+border: 1px solid grey;
+align-items: flex-end;
+background-color: pink;
+box-shadow: 3px 3px 8px grey;
+
+
+
+}
+
+.hijo{
+    border : 1px solid;
+}
+
+#contenedor div:last-child {
+    background-color:green;
+}
+
+#contenedor div:first-child{
+    background-color: violet;
+}
+
+#contenedor div:nth-child(2):hover{
+    background-color:white;
+    color: black;
+} 
+
+@media screen and (min-width:800px){
+
+
+body{
+    background-color: paleturquoise;
+}
+
+
+
+
+}

@@ -1,0 +1,43 @@
+cd .. me sube a la pantalla anterior
+cls borra la consola 
+dir directorio
+
+primer comando de git es : git init : inicializa un repo en el directorio
+donde estas parada y siempre lo va a inicializar adentrro de otra
+carpeta llamada .git 
+
+git config [tipo] <variable> <valor> 
+
+
+tipos
+
+--local  
+--global dentro den entorno 
+--system para todos los usuarios de eata máquina
+
+git config --local user.name "yam"
+
+git status para cuando no se que pasa 
+
+tienen dos estados untracked y tracked. el comando para pasarlo es add
+
+wd, working directory 
+
+stage area 
+
+para hushear del working al stage también es el comando add 
+
+para pasar al repo desde la stage area se pasa desde commit 
+
+git commit -m "creo nuevo index"
+
+git commit solo: ebtra en el editor de texto y genera el commit tras guardar el subject 
+
+git log : te muestra los commits que tenés y los que hiciste
+
+git log --oneline : te abrevia los commitss y ves solo donde estás ubicada
+
+copiamos la segunda opcion de github, la priemra linea , luego remote -v para ver los remotos
+si aparecen agrefo la segunda linea push -u origin master
+
+
