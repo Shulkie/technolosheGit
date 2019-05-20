@@ -40,4 +40,5 @@ git log --oneline : te abrevia los commitss y ves solo donde estás ubicada
 copiamos la segunda opcion de github, la priemra linea , luego remote -v para ver los remotos
 si aparecen agrefo la segunda linea push -u origin master
 
+git code <espacio> . y te lleva a la carpeta
 
