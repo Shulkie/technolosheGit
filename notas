@@ -50,4 +50,5 @@ git checkout -b <nombre de brunch> crea un nuevo brunch y nos mueve el
 head a ese brunch nuevo 
 
 
+git code <espacio> . y te lleva a la carpeta
 
