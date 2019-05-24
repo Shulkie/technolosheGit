@@ -1,0 +1,4 @@
+-git init 
+-git add archivo
+-git config user.name user.email
+-git commit -m "mensaje"
