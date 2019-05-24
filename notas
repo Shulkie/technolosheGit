@@ -40,4 +40,15 @@ git log --oneline : te abrevia los commitss y ves solo donde estás ubicada
 copiamos la segunda opcion de github, la priemra linea , luego remote -v para ver los remotos
 si aparecen agrefo la segunda linea push -u origin master
 
+git checkout <id_commit o branch> mueve por las branches 
+
+git branch <nombre>: crea un nuevo branch sobre el commit donde estamos parados
+
+git log --all
+
+git checkout -b <nombre de brunch> crea un nuevo brunch y nos mueve el 
+head a ese brunch nuevo 
+
+
+git code <espacio> . y te lleva a la carpeta
 
